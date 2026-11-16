@@ -2,6 +2,11 @@
 
 An interactive Streamlit workbench that makes the steps of a small gradient-boosted regression tree visible: candidate splits, gain, leaf weights, residuals, iteration history, and baseline comparisons.
 
+## Preview: split, residuals and the selected tree
+
+![Gradient-boosting workbench with prediction-versus-actual and MAE-by-iteration charts, plus the selected tree's split summary.](docs/images/gradient-boosting-tree-explanation.png)
+
+*This run uses the ten hand-authored sample rows. Train/test sets are tiny, so the visible metrics are only an illustration of the workflow and are not a generalization benchmark.*
 ## Learning objectives
 
 - Inspect squared-error gradients and unit Hessians.
